@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ariya Parsa — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a2e0d6e55b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!-- HEADER -->
+<header>
+  <div class="header-container">
+    <a href="#" class="logo-link">
+      <img src="logo 2.png" alt="My Logo" class="logo-img">
+    </a>
+    <a href="https://www.linkedin.com/in/ariya-parsa-14b600259" target="_blank" class="linkedin-link">
+      <img src="linkedin-white-icon-11.jpg" alt="LinkedIn" class="linkedin-logo">
+    </a>
+  </div>
+</header>
+
+
+  <!-- PROJECTS SECTION -->
+  <section class="projects-section glass1" id="projects glass1">
+  <h2>My Projects</h2>
+  <p class="projects-intro">A PLACE FOR SHOWING WHAT I DO</p>
+
+  <div class="projects">
+
+    <!-- 🔹 Example Project 1 - Image -->
+    <div class="project">
+      <img src="Untitled-1.jpg" alt="a lookout to the projects" class="project-img">
+      <h3>this was our projects and its teasers</h3>
+      <p>including media depatment, 15th and 16th business networking summit and medtour connect</p>
+    </div>
+
+    <!-- 🔹 Example Project 2 - Embedded Video -->
+    <div class="project">
+      <div class="project-video">
+        <video controls class="project-video" autoplay loop muted>
+    <source src="iph.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+      </div>
+      <h3>IPH2025</h3>
+      <p>one of our congress and exhibition in iran for hospitals, clinics and medical tourism compenies</p>
+    </div>
+
+    <!-- 🔹 Example Project 3 - Image -->
+    <div class="project">
+      <video controls class="project-video" autoplay loop muted>
+    <source src="oman.mp4" type="video/mp4">
+  </video>
+      <h3>oman 15th business nnetworking summit</h3>
+      <p>the 15th business networking summit that held in muscat, oman during oman health</p>
+    </div>
+
+  </div>
+</section>
+
+
+  <!-- WORK INTRO SECTION -->
+  <section class="work-section glass3">
+    <div class="work-content ">
+      <h2>WORK</h2>
+      <p>The <strong>Health Tourism Development Center of Islamic Countries</strong> (HTDC) is a non-governmental organization founded in 2015, dedicated to advancing the health tourism industry and showcasing the unique capabilities of countries.
+
+HTDC strives to enhance the quality of related health and wellness tourism services, foster knowledge exchange, and build robust networks among key stakeholders across nations. Through its affiliated centers and companies, HTDC implements a wide range of programs and initiatives designed to promote best practices, strengthen industry collaboration and relationships, and drive sustainable growth.
+
+By fostering effective partnerships and creating opportunities for mutual benefit, HTDC is committed to shaping a thriving health tourism ecosystem that delivers value for all participants and members while contributing to the global success of the industry.</p>
+      
+<h2 >You can get full information in HTDC website</h2>
+<a href="https://htdcenter.com" target="_blank" class="work-button">HTDC website</a>
+    </div>
+  </section>
+
+
+  <!-- ABOUT ME SECTION -->
+  <section id="about glass4" class="about glass4">
+    <h2>About Ariya</h2>
+    <p>Hi, I’m <storng>Ariya</storng> 18-year-old <strong>videographer and editor</strong> based at <storng>HTDC</storng>.
+I’m passionate about turning ideas into visual stories that move people. From concept to final cut, I love crafting videos that blend creativity, motion, and emotion.
+
+When I’m not behind the camera or editing screen, I’m usually exploring new visual styles, experimenting with effects, or learning the latest tools to push my work further.</p>
+<h2 class="Experince">Experince</h2>
+<p class="abouut">Worked as graphic designer at Lidoma agency, 
+Graphic designer freelance, 
+Video grapher and video editor at HTDC, 
+IT and Networking Freelance, 
+VoIP system and troubleshooting
+</p>
+  </section>
+
+
+<section class="pricing-section glass5" id="pricing glass5">
+  <h2>Service Rates for Freelance Projects</h2>
+
+  <div class="pricing-box">
+    <img src="pricelist economy2.png" alt="Pricing Table" class="pricing-img">
+  </div>
+</section>
+
+
+
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-left">
+      <h3>Contact</h3>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/ariya-parsa-14b600259" target="_blank">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="https://htdcenter.com" target="_blank">
+          <i class="fa-solid fa-globe"></i>
+        </a>
+      </div>
+    </div>
+    <div class="footer-right">
+        <p>
+    <img src="phone_1151429white.png" alt="Phone" class="footer-icon"> 
+    09025283059
+  </p>
+  <p>
+    <img src="Gmail_Logo_White_512px.png" alt="Email" class="footer-icon"> 
+    ariap230@gmail.com
+  </p>
+    </div>
+  </footer>
+
+<script>
+  let lastScrollTop = 0;
+  const header = document.querySelector("header");
+
+  window.addEventListener("scroll", () => {
+    let currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+    if (currentScroll > lastScrollTop) {
+      // Scrolling down → hide header
+      header.style.top = "-100px";
+    } else {
+      // Scrolling up → show header
+      header.style.top = "0";
+    }
+    lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
+  });
+</script>
+
+
+
+
+</body>
+</html>
